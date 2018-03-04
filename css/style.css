@@ -1,0 +1,306 @@
+body {
+    font-family: 'Catamaran', sans-serif;
+}
+
+#hero {
+    background-color: rgb(255, 85, 61);
+    height: 80vh;
+    color: whitesmoke;
+    backface-visibility: hidden;
+    width: 100%;
+}
+
+.navigation {
+    background-color: rgb(255, 85, 61);
+    width: 100%;
+    height: 50px;
+}
+
+.brand {
+    color: whitesmoke;
+    padding: 0 10px;
+}
+
+
+.nav_items {
+    list-style: none;
+    display: inline-block;
+    padding: 10px 30px;
+    text-transform: uppercase;
+
+}
+
+
+.nav_item:link,
+.nav_item:visited {
+    color: whitesmoke;
+    text-decoration: none;
+}
+
+.nav_item:hover,
+.nav_item:active {
+    border-bottom: 2px;
+    background: linear-gradient(to right, grey, rgb(255, 85, 61)) left bottom no-repeat;
+    background-size: 100% 2px;
+}
+
+.navbar-fixed {
+    position: fixed;
+    background-color: rgb(51, 59, 77);
+    z-index: 1000;
+    width: 82.4%;
+    transition: all .3s ease-out;
+}
+
+.heading_primary {
+    font-size: 50px;
+    font-weight: 300;
+}
+
+.hero_content {
+    clear: both;
+}
+
+.hero_text {
+    width: 550px;
+    float: left;
+}
+
+.shapes {
+    width: 50%;
+    float: left;
+
+    /*
+     -webkit-clip-path: polygon(0 1%, 100% 0, 53% 100%, 0% 100%);
+    clip-path: polygon(0 1%, 100% 0, 53% 100%, 0% 100%);
+*/
+}
+
+.shape {
+    -webkit-hyphens: none;
+    hyphens: none;
+    -webkit-shape-outside: polygon(25% 0, 75% 0, 100% 50%, 75% 100%, 25% 100%, 0 50%);
+    shape-outside: polygon(25% 0, 75% 0, 100% 50%, 75% 100%, 25% 100%, 0 50%);
+
+}
+
+.hero_img {
+    width: 500px;
+    height: 300px;
+}
+
+.hero_content {
+    clear: both;
+    position: relative;
+}
+
+.main {
+    clear: both;
+    background-color: rgb(51, 59, 77);
+    position: relative;
+    color: #95a5a6;
+}
+
+.icon {
+    height: 75px;
+    width: 75px;
+    display: inline-block;
+    background-color: rgb(247, 206, 63);
+    border-radius: 50%;
+    position: relative;
+}
+
+.icons {
+    margin: 0 auto;
+}
+
+.main_icons {
+    font-size: 30px;
+    color: rgb(255, 85, 61);
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+}
+
+.left-btn {
+
+    width: 70%;
+    cursor: pointer;
+    -webkit-clip-path: polygon(0 0, 80% 0, 100% 100%, 0 100%);
+    clip-path: polygon(0 0, 80% 0, 100% 100%, 0 100%);
+    margin-left: -10px;
+}
+
+.right-btn {
+
+    width: 70%;
+    cursor: pointer;
+    -webkit-clip-path: polygon(0 0, 100% 0, 100% 100%, 20% 100%);
+    clip-path: polygon(0 0, 100% 0, 100% 100%, 20% 100%);
+    transform: translateX(-30px);
+    margin-right: -30px;
+
+}
+
+
+.main-btn {
+    border: none;
+    border-radius: 0px;
+    margin: 2px;
+    width: 400px;
+    margin: 0 auto;
+}
+
+.sub-btn {
+    background-color: rgb(51, 59, 77);
+    text-transform: uppercase;
+}
+
+.sub-btn:hover {
+    background-color: rgb(255, 85, 61);
+}
+
+.spn-div {
+    background-color: rgb(255, 85, 61);
+    padding: 1px 20px;
+    margin: 5px 10px;
+    color: ghostwhite;
+    margin-bottom: 20px;
+}
+
+.image {
+    height: 200px;
+    margin-left: 25px;
+
+}
+
+.story-text {
+    width: 50%;
+    margin-left: 10px;
+}
+
+.story {
+    clear: both;
+}
+
+.story-content {
+    margin-top: 30px
+}
+
+.button-dark {
+    background-color: inherit;
+    color: #95a5a6;
+    border: 2px solid whitesmoke;
+    padding: 2px 45px;
+    margin-left: 500px;
+
+
+}
+
+.car-shape {
+    width: 75px;
+    height: 75px;
+    float: left;
+    -webkit-shape-outside: circle(50% at 50% 50%);
+    shape-outside: circle(50% at 50% 50%);
+}
+
+.car-img {
+    height: 100%;
+    width: 100%;
+    border-radius: 50%;
+}
+
+.car-item {
+    margin-left: 150px;
+}
+
+.car-text {
+    display: inline-block;
+    width: 80%;
+}
+
+.footer {
+    background-color: rgb(255, 85, 61);
+    backface-visibility: hidden;
+    height: 200px;
+    width: 100%;
+    color: whitesmoke;
+}
+
+.fsocial {
+    width: 50%;
+    float: right;
+    position: relative;
+}
+
+.ficon {
+    height: 40px;
+    width: 40px;
+    display: inline-block;
+    background-color: rgb(51, 59, 77);
+    border-radius: 50%;
+    position: relative;
+}
+
+.ficon:hover {
+    background-color: blueviolet;
+}
+
+.ficons {
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+.fsocial_icons {
+    font-size: 20px;
+    color: whitesmoke;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+}
+
+.copyright {
+    clear: both;
+    margin-top: 100px;
+
+}
+
+.copytext {
+    margin-left: 255px;
+}
+
+.fnav-list {
+    list-style: none;
+    display: inline-block;
+    padding: 10px 30px;
+    text-transform: uppercase;
+
+}
+
+
+.fnav-item:link,
+.fnav-item:visited,
+.fnav-item:hover {
+    color: whitesmoke;
+    text-decoration: none;
+}
+
+.review {
+    text-transform: uppercase;
+}
+
+.review:hover {
+    background-color: rgb(255, 85, 61);
+    color: antiquewhite;
+}
+
+/*
+    -webkit-shape-inside: polygon(0 1%, 100% 0, 53% 100%, 0% 100%);
+    shape-inside: polygon(0 1%, 100% 0, 53% 100%, 0% 100%);
+*/
